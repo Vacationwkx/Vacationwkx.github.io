@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ComputerTech on 無極</title>
+    <link>https://Vacationwkx.github.io/categories/computertech/</link>
+    <description>Recent content in ComputerTech on 無極</description>
+    <image>
+      <url>https://Vacationwkx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://Vacationwkx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 21 Apr 2021 17:38:25 +0800</lastBuildDate><atom:link href="https://Vacationwkx.github.io/categories/computertech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://Vacationwkx.github.io/posts/ai/</link>
+      <pubDate>Wed, 21 Apr 2021 17:38:25 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/ai/</guid>
+      <description>Artificial Intelligent Thought Sparks</description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning Notes</title>
+      <link>https://Vacationwkx.github.io/posts/rl-notes/</link>
+      <pubDate>Tue, 08 Dec 2020 08:47:38 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/rl-notes/</guid>
+      <description>State Representation  state vector ( obey Markov Property) observation →knowledge→ state Partially observable Markov decision process &amp;ldquo;learning or classification algorithms to &amp;ldquo;learn&amp;rdquo; those states&amp;rdquo;  A simple linear regression A more complex non-linear function approximator, such as a multi-layer neural network.    The Atari DQN work by DeepMind team used a combination of feature engineering and relying on deep neural network to achieve its results. The feature engineering included downsampling the image, reducing it to grey-scale and - importantly for the Markov Property - using four consecutive frames to represent a single state, so that information about velocity of objects was present in the state representation.</description>
+    </item>
+    
+    <item>
+      <title>NNN notes</title>
+      <link>https://Vacationwkx.github.io/posts/nn-notes/</link>
+      <pubDate>Mon, 07 Dec 2020 08:55:38 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/nn-notes/</guid>
+      <description>In any case, you will need to get started with reading up on machine learning. i would suggest you first briefly start with neural networks, followed by deep convolutional neural networks just to get used to the idea of deep learning and subsequently focus on picking up reinforcement learning. As this machine learning field heavily requires you to be able to do programming, I would suggest that you try to implement the models you learnt and get familiar with the various packages of pytorch, tensorflow, fastai.</description>
+    </item>
+    
+    <item>
+      <title>Use Jupiter Notebook by ssh</title>
+      <link>https://Vacationwkx.github.io/posts/ssh-jupyter/</link>
+      <pubDate>Sat, 05 Dec 2020 22:18:34 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/ssh-jupyter/</guid>
+      <description>This blog shows up a way to ssh a ubuntu computer (as Jupyter Notebook server) from mac.
+Prerequirements Ubuntu / Remote Setting SSH Setting run the following command to enable the ssh on ubuntu(18.04)
+$ sudo apt-get install openssh-server Jupyter Notebook Setting(optional) using jupyter notebook may require the token or password, you may refer to the jupyter notebook official site for details.
+  Token
+take note of the resultjupyter notebook command, the token is inside the link after token=, e.</description>
+    </item>
+    
+    <item>
+      <title>epsilon-Greedy vs epsilon-Soft</title>
+      <link>https://Vacationwkx.github.io/posts/rl-epsilon-policy/</link>
+      <pubDate>Mon, 30 Nov 2020 11:35:49 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/rl-epsilon-policy/</guid>
+      <description>In reinforcement learning, we can&amp;rsquo;t run infinite times to update the whole $Q$ - value table or $V$ - value table, efficient update choices must be made.
+Generally thinking, which $s$ or $(s,a)$ has more opportunity to get $R$ (high value), should be updated more to converge to the optimal. But stochastic exploring is also required to jump out of sub-optimal. The simple idea to implement is $\epsilon$ -greedy.
+Tips:</description>
+    </item>
+    
+    <item>
+      <title>Value Update Comparsion among Basical RL</title>
+      <link>https://Vacationwkx.github.io/posts/rl-update-equation/</link>
+      <pubDate>Mon, 30 Nov 2020 11:13:00 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/rl-update-equation/</guid>
+      <description>In this post, we will compare the state value update or state-action value update equation in fundamental rl methods.
+Monte Carlo $$V(s)\leftarrow V(s)+\frac{1}{N}[G_t-V(s)]$$
+recall that, monte carlo update use average $V(s)=\sum G_t/N$. After simple transformation, we will have the error form equation:point_up_2:.
+and the corresponding state-action value update is:
+$$Q(s,a)\leftarrow Q(s,a)+\frac{1}{N}[G_t-Q(s,a)]$$
+Temporal Difference TD is driven from $\alpha$ - Monte Carlo, but replace the $G_t$ with $R_t+\gamma V(s&#39;)$, since we want a instant update per step rather than till terminal.</description>
+    </item>
+    
+    <item>
+      <title>Monte Carlo vs TD vs Q-learning</title>
+      <link>https://Vacationwkx.github.io/posts/rl-comparsion/</link>
+      <pubDate>Sat, 28 Nov 2020 21:47:38 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/rl-comparsion/</guid>
+      <description>Basic Recap Reinforcement learning bases on $V(s),Q(s,a),\pi(a|s),R,G$:
+  $V(s)$ : state value, often used in model-based method;
+  $Q(s,a)$ : state-action value, often used in model-free method;
+ why state-action: $s\rightarrow a$ is defined partly in $\pi(a|s)$, and $V(s,a),\pi(a|s)$ are all parameters inside agent, consequently, $Q(s,a)$ is a combination of $V(s)$ and $\pi(a|s)$.    $\pi(a|s)$ : the policy of a agent, chose a $a$ (action) at a $s$ state;</description>
+    </item>
+    
+    <item>
+      <title>New on Hugo🤺</title>
+      <link>https://Vacationwkx.github.io/posts/new-on-hugo/</link>
+      <pubDate>Thu, 22 Oct 2020 21:55:38 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/new-on-hugo/</guid>
+      <description>Starting from hexo, changing to jekyll, now i am on HUGO</description>
+    </item>
+    
+    <item>
+      <title>Note Learn Jekyll</title>
+      <link>https://Vacationwkx.github.io/posts/learn-jekyll/</link>
+      <pubDate>Wed, 01 Apr 2020 21:55:38 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/learn-jekyll/</guid>
+      <description>Note of learning creating Blog in Jekyll
+Guide / Tutorial For Jekyll  Quick Start - Official Tutorial Official one is the most basis and reliabel. What is Jekyll? and How it works? - Jekyll Bootstrap Better first go though the official one to understand what is Variables Front Matter .. Sinple guides of jekyll from CarlBoettiger Pure Guide, what do first, what next. Fast guide for those, who know htmlCloudCannon  For HTML  No Base No Building: What is HTML / HTML5 und CSS Basic Knowledge in Mozilla Basic Example &amp;amp; Code Training HTML - W3School and JS -W3School  Front Matter --- title: Antigragile - Book Review layout: post author: Vac categories: [Book] tags: [Probability] --- Front Matter default default your font matters in _config.</description>
+    </item>
+    
+  </channel>
+</rss>

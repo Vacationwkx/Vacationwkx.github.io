@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on 無極</title>
+    <link>https://Vacationwkx.github.io/tags/blog/</link>
+    <description>Recent content in blog on 無極</description>
+    <image>
+      <url>https://Vacationwkx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://Vacationwkx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 22 Oct 2020 21:55:38 +0800</lastBuildDate><atom:link href="https://Vacationwkx.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New on Hugo🤺</title>
+      <link>https://Vacationwkx.github.io/posts/new-on-hugo/</link>
+      <pubDate>Thu, 22 Oct 2020 21:55:38 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/new-on-hugo/</guid>
+      <description>Starting from hexo, changing to jekyll, now i am on HUGO</description>
+    </item>
+    
+    <item>
+      <title>Note Learn Jekyll</title>
+      <link>https://Vacationwkx.github.io/posts/learn-jekyll/</link>
+      <pubDate>Wed, 01 Apr 2020 21:55:38 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/learn-jekyll/</guid>
+      <description>Note of learning creating Blog in Jekyll
+Guide / Tutorial For Jekyll  Quick Start - Official Tutorial Official one is the most basis and reliabel. What is Jekyll? and How it works? - Jekyll Bootstrap Better first go though the official one to understand what is Variables Front Matter .. Sinple guides of jekyll from CarlBoettiger Pure Guide, what do first, what next. Fast guide for those, who know htmlCloudCannon  For HTML  No Base No Building: What is HTML / HTML5 und CSS Basic Knowledge in Mozilla Basic Example &amp;amp; Code Training HTML - W3School and JS -W3School  Front Matter --- title: Antigragile - Book Review layout: post author: Vac categories: [Book] tags: [Probability] --- Front Matter default default your font matters in _config.</description>
+    </item>
+    
+  </channel>
+</rss>
