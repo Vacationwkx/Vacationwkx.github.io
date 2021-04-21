@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://Vacationwkx.github.io/sitemap.xml

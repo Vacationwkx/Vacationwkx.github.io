@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine-learning on 無極</title>
+    <link>https://Vacationwkx.github.io/tags/machine-learning/</link>
+    <description>Recent content in machine-learning on 無極</description>
+    <image>
+      <url>https://Vacationwkx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://Vacationwkx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 07 Dec 2020 08:55:38 +0800</lastBuildDate><atom:link href="https://Vacationwkx.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NNN notes</title>
+      <link>https://Vacationwkx.github.io/posts/nn-notes/</link>
+      <pubDate>Mon, 07 Dec 2020 08:55:38 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/nn-notes/</guid>
+      <description>In any case, you will need to get started with reading up on machine learning. i would suggest you first briefly start with neural networks, followed by deep convolutional neural networks just to get used to the idea of deep learning and subsequently focus on picking up reinforcement learning. As this machine learning field heavily requires you to be able to do programming, I would suggest that you try to implement the models you learnt and get familiar with the various packages of pytorch, tensorflow, fastai.</description>
+    </item>
+    
+  </channel>
+</rss>
