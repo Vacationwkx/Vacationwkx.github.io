@@ -16,8 +16,7 @@
       <pubDate>Thu, 22 Oct 2020 21:55:38 +0800</pubDate>
       
       <guid>https://Vacationwkx.github.io/posts/new-on-hugo/</guid>
-      <description>Starting from hexo, changing to jekyll, now i am on HUGO
- My Steps to HUGO  Follow the official website basic installation; Find a great (better stable) theme at official theme library Config the config.yml or config.toml by instruction from the theme producer.  something you may want to pay attention to images In hugos, the post use image from static folder, you can insert a image in a markdown method:</description>
+      <description>Starting from hexo, changing to jekyll, now i am on HUGO</description>
     </item>
     
   </channel>
