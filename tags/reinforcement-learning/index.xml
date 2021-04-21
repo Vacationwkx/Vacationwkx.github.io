@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reinforcement learning on 無極</title>
+    <link>https://Vacationwkx.github.io/tags/reinforcement-learning/</link>
+    <description>Recent content in reinforcement learning on 無極</description>
+    <image>
+      <url>https://Vacationwkx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://Vacationwkx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 08 Dec 2020 08:47:38 +0800</lastBuildDate><atom:link href="https://Vacationwkx.github.io/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reinforcement Learning Notes</title>
+      <link>https://Vacationwkx.github.io/posts/rl-notes/</link>
+      <pubDate>Tue, 08 Dec 2020 08:47:38 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/rl-notes/</guid>
+      <description>State Representation  state vector ( obey Markov Property) observation →knowledge→ state Partially observable Markov decision process &amp;ldquo;learning or classification algorithms to &amp;ldquo;learn&amp;rdquo; those states&amp;rdquo;  A simple linear regression A more complex non-linear function approximator, such as a multi-layer neural network.    The Atari DQN work by DeepMind team used a combination of feature engineering and relying on deep neural network to achieve its results. The feature engineering included downsampling the image, reducing it to grey-scale and - importantly for the Markov Property - using four consecutive frames to represent a single state, so that information about velocity of objects was present in the state representation.</description>
+    </item>
+    
+    <item>
+      <title>Use Jupiter Notebook by ssh</title>
+      <link>https://Vacationwkx.github.io/posts/ssh-jupyter/</link>
+      <pubDate>Sat, 05 Dec 2020 22:18:34 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/ssh-jupyter/</guid>
+      <description>This blog shows up a way to ssh a ubuntu computer (as Jupyter Notebook server) from mac.
+Prerequirements Ubuntu / Remote Setting SSH Setting run the following command to enable the ssh on ubuntu(18.04)
+$ sudo apt-get install openssh-server Jupyter Notebook Setting(optional) using jupyter notebook may require the token or password, you may refer to the jupyter notebook official site for details.
+  Token
+take note of the resultjupyter notebook command, the token is inside the link after token=, e.</description>
+    </item>
+    
+    <item>
+      <title>epsilon-Greedy vs epsilon-Soft</title>
+      <link>https://Vacationwkx.github.io/posts/rl-epsilon-policy/</link>
+      <pubDate>Mon, 30 Nov 2020 11:35:49 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/rl-epsilon-policy/</guid>
+      <description>In reinforcement learning, we can&amp;rsquo;t run infinite times to update the whole $Q$ - value table or $V$ - value table, efficient update choices must be made.
+Generally thinking, which $s$ or $(s,a)$ has more opportunity to get $R$ (high value), should be updated more to converge to the optimal. But stochastic exploring is also required to jump out of sub-optimal. The simple idea to implement is $\epsilon$ -greedy.
+Tips:</description>
+    </item>
+    
+    <item>
+      <title>Value Update Comparsion among Basical RL</title>
+      <link>https://Vacationwkx.github.io/posts/rl-update-equation/</link>
+      <pubDate>Mon, 30 Nov 2020 11:13:00 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/rl-update-equation/</guid>
+      <description>In this post, we will compare the state value update or state-action value update equation in fundamental rl methods.
+Monte Carlo $$V(s)\leftarrow V(s)+\frac{1}{N}[G_t-V(s)]$$
+recall that, monte carlo update use average $V(s)=\sum G_t/N$. After simple transformation, we will have the error form equation:point_up_2:.
+and the corresponding state-action value update is:
+$$Q(s,a)\leftarrow Q(s,a)+\frac{1}{N}[G_t-Q(s,a)]$$
+Temporal Difference TD is driven from $\alpha$ - Monte Carlo, but replace the $G_t$ with $R_t+\gamma V(s&#39;)$, since we want a instant update per step rather than till terminal.</description>
+    </item>
+    
+    <item>
+      <title>Monte Carlo vs TD vs Q-learning</title>
+      <link>https://Vacationwkx.github.io/posts/rl-comparsion/</link>
+      <pubDate>Sat, 28 Nov 2020 21:47:38 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/rl-comparsion/</guid>
+      <description>Basic Recap Reinforcement learning bases on $V(s),Q(s,a),\pi(a|s),R,G$:
+  $V(s)$ : state value, often used in model-based method;
+  $Q(s,a)$ : state-action value, often used in model-free method;
+ why state-action: $s\rightarrow a$ is defined partly in $\pi(a|s)$, and $V(s,a),\pi(a|s)$ are all parameters inside agent, consequently, $Q(s,a)$ is a combination of $V(s)$ and $\pi(a|s)$.    $\pi(a|s)$ : the policy of a agent, chose a $a$ (action) at a $s$ state;</description>
+    </item>
+    
+  </channel>
+</rss>
