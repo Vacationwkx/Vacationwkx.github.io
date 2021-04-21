@@ -2,6 +2,7 @@
 title: "Use Jupiter Notebook by ssh"
 date: 2020-12-05T22:18:34+08:00
 draft: false
+categories: ComputerTech
 tags:
   - reinforcement learning
   - linux

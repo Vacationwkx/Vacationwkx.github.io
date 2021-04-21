@@ -1,8 +1,8 @@
 ---
 title: Der Tod eines Mannen - ChenShifeng
-categories: ThinkOfChaos
 date: 2017-10-14T21:55:38+08:00
 excerpt_separator: <!-- more -->
+categories: ThinkOfChaos
 lang: de
 tags:
   - de

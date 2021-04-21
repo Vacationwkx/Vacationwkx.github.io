@@ -2,6 +2,7 @@
 title: "epsilon-Greedy vs epsilon-Soft"
 date: 2020-11-30T11:35:49+08:00
 draft: false
+categories: ComputerTech
 tags:
   - reinforcement learning
 ---

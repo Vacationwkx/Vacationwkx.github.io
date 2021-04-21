@@ -2,6 +2,7 @@
 title: "NNN notes"
 date: 2020-12-07T08:55:38+08:00
 draft: false
+categories: ComputerTech
 tags:
   - machine-learning
 ---

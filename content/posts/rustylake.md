@@ -1,9 +1,11 @@
 ---
 title: "Rusty lake - Game Timeline & Secrets"
 date: 2020-10-29T10:25:43+08:00
-draft: true
+weight: 1
+draft: false
+categories: Game
 tags:
-  - game
+  - rusty lake
 ---
 [Rusty Lake](http://www.rustylake.com/)
 ===

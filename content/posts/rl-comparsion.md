@@ -2,6 +2,7 @@
 title: "Monte Carlo vs TD vs Q-learning"
 date: 2020-11-28T21:47:38+08:00
 draft: false
+categories: ComputerTech
 tags:
   - reinforcement learning
 ---

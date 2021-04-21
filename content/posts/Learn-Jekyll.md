@@ -1,8 +1,10 @@
 ---
 title: Note Learn Jekyll
 date: 2020-04-01T21:55:38+08:00
+categories: ComputerTech
 tags:
   - jekyll
+  - blog
 ---
 Note of learning creating Blog in Jekyll
 

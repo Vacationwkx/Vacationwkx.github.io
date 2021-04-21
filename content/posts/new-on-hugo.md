@@ -1,11 +1,23 @@
 ---
 title: "New on Hugo\U0001F93A"
 date: 2020-10-22T21:55:38+08:00
+description: Starting from hexo, changing to jekyll, now i am on HUGO
+lastmod: 2021-04-21T21:55:38+08:00
 draft: false
+categories: ComputerTech
 tags:
   - hugo
+  - blog
+#cover:
+#    image: "/general/hugo.png"
+    # can also paste direct link from external site
+    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+#    alt: "hugo static site generator"
+#    caption: "hugo static site generator"
+#    relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
-> Starting from hexo, changing to jekyll, now i am on HUGO
+
+[Updated on 2021.04.21]({{< ref "#new" >}})
 
 # My Steps to HUGO
 1. Follow the official website [basic installation](https://gohugo.io/getting-started/quick-start/);
@@ -94,22 +106,21 @@ In case you find no changes, may be the browser still has cache, clear it or swi
 
 ## Mathjax
 
-Only simple 3 changing sperately in `css`, `layout/.html` and `head.html` or `header.html`. The tutorial you can find [here](https://bwaycer.github.io/hugo_tutorial.hugo/tutorials/mathjax/).
+Only simple 3 changing separately in `css`, `layout/.html` and `head.html` or `header.html`. The tutorial you can find [here](https://bwaycer.github.io/hugo_tutorial.hugo/tutorials/mathjax/).
 
-if you find multilines flattened into one line (check [this issue](https://bwaycer.github.io/hugo_tutorial.hugo/tutorials/mathjax/) ) change all `\\` at end to `\\\\\\`.
+if you find multiline flattened into one line (check [this issue](https://bwaycer.github.io/hugo_tutorial.hugo/tutorials/mathjax/) ) change all `\\` at end to `\\\\\\`.
 
 ### Small problems fix:
 
 - infinity symbol in MathJax $\infty$ code is `\infty` .
 
-# now:
 
-- [ ] add more blogs
+# [New] Hugo 0.82.0 {#new}
+has been a long time not update my blog, life got boring, but i barely realized it, until recent. Refeeling the vivid daily time is long lasting, but i did it again.
 
-- [x] fixed on the archive head...
+So, new hugo add some more settings, like `description`  in front matters. We can have a auto github page with the [Github Action](https://github.com/marketplace/actions/hugo-setup) said in the [official doc](https://gohugo.io/hosting-and-deployment/hosting-on-github/). The magic code will build a branch in the github repository called `gh-pages`.
 
-- [x] image
+![gh-page branch](/general/hugo_github_action.png#center)
+All you should do is go to **Setting >> Pages >> Source** and change the branch to `gh-pages`.
 
-- [x] file share
-
-- [x] video insert
+The paperMod theme i used also updated. You can find [here](https://adityatelange.github.io/hugo-PaperMod/). Following some new instructions i rebuilt my blog, add search and comment block.

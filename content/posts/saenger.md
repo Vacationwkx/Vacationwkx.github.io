@@ -1,8 +1,8 @@
 ---
 title: Der Saenger
-categories: ThinkOfChaos
 date: 2017-09-14T21:55:38+08:00
 excerpt_separator: <!-- more -->
+categories: ThinkOfChaos
 lang: de
 tags:
   - society

@@ -2,6 +2,7 @@
 title: "Value Update Comparsion among Basical RL"
 date: 2020-11-30T11:13:00+08:00
 draft: false
+categories: ComputerTech
 tags:
   - reinforcement learning
 ---
