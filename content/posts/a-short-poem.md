@@ -2,7 +2,7 @@
 title: "A Short Poem - Lonely me and the door lock"
 date: 2021-04-30T00:25:15+08:00
 draft: false
-categories: ThinkOfChaos
+categories: Writing
 description: "A short poem from walking in chinese"
 ---
 
