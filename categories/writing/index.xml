@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing on 無極</title>
+    <link>https://Vacationwkx.github.io/categories/writing/</link>
+    <description>Recent content in Writing on 無極</description>
+    <image>
+      <url>https://Vacationwkx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://Vacationwkx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Apr 2021 00:25:15 +0800</lastBuildDate><atom:link href="https://Vacationwkx.github.io/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Short Poem - Lonely me and the door lock</title>
+      <link>https://Vacationwkx.github.io/posts/a-short-poem/</link>
+      <pubDate>Fri, 30 Apr 2021 00:25:15 +0800</pubDate>
+      
+      <guid>https://Vacationwkx.github.io/posts/a-short-poem/</guid>
+      <description>A short poem from walking in chinese</description>
+    </item>
+    
+  </channel>
+</rss>
